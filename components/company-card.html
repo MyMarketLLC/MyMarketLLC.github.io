@@ -1,0 +1,13 @@
+<div class="company-card">
+    <div class="company-logo">
+        <img src="${company.logo}" alt="${company.name} logo" onerror="this.src='images/default-company.png'">
+    </div>
+    <div class="company-info">
+        <h3>${company.name}</h3>
+        <p class="company-domain">${company.domain}</p>
+        <p class="company-description">${company.description}</p>
+        <a href="https://${company.domain}" class="visit-btn" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt"></i> Visit this Business
+        </a>
+    </div>
+</div>
